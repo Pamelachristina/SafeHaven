@@ -14,7 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #212e2c;
+  background: #343541;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #3D5A59;
+  background: #40414F;
 }
 
 .chat {
@@ -89,7 +89,7 @@ body {
 .message {
   flex: 1;
 
-  color: #3D5A59;
+  color: #dcdcdc;
   font-size: 20px;
 
   max-width: 100%;
@@ -109,9 +109,7 @@ body {
   scrollbar-width: none;
 }
 
-.ai .message {
-  color: #dcdcdc;
-}
+
 
 /* hides scrollbar */
 .message::-webkit-scrollbar {
